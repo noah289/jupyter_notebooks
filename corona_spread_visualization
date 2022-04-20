@@ -1,11 +1,11 @@
 #  Author:- Anurag Gupta # email:- 999.anuraggupta@gmail.com
 # This code and related article was published here:-
-# https://opensource.com/article/20/4/python-map-covid-19
+# https://www.ecdc.europa.eu/en/cases-2019-ncov-eueea
 import pycountry
 import plotly.express as px
 import pandas as pd
 # ----------- Step 1 ------------
-URL_DATASET = r'https://raw.githubusercontent.com/datasets/covid-19/master/data/countries-aggregated.csv'
+URL_DATASET = r'https://www.ecdc.europa.eu/en/cases-2019-ncov-eueea'
 df1 = pd.read_csv(URL_DATASET)
 # print(df1.head) # Uncomment to see what the dataframe is like
 # ----------- Step 2 ------------
